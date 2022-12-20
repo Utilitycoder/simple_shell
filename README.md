@@ -1,7 +1,4 @@
-# hella_shell
-
-![hella shell](https://s31.postimg.org/403ix8w7f/j1_IPt_Uu_IS51_N62_LB5z9_Qhg_r.jpg)
-
+# Simple_shell
 
 ## Table of Contents
 
@@ -18,7 +15,7 @@
 
 ## Description
 
-**hella_shell** is a simple command line interpreter based on the first Unix shell 'sh', created by Ken Thompson in 1971. **hella_shell** is intentionally minimalistic and contains functionality for only the most basic shell tasks - accepting input, parsing the input into a command and its arguments, and executing that input. Error checking is simple and follows Bash conventions.
+**Simple_shell** is a simple command line interpreter based on the first Unix shell 'sh', created by Ken Thompson in 1971. **simple_shell** is intentionally minimalistic and contains functionality for only the most basic shell tasks - accepting input, parsing the input into a command and its arguments, and executing that input. Error checking is simple and follows Bash conventions.
 
 ## Purpose
 
@@ -40,8 +37,8 @@ The purpose of the simple shell project is to understand:
 
 ## File Structure
 
-* [AUTHORS](https://github.com/aucontraire/simple_shell/blob/docs/AUTHORS) - list of contributors
-* [check_helpers.c](https://github.com/aucontraire/simple_shell/blob/docs/check_helpers.c) - helper functions that check for builtins
+* [AUTHORS](https://github.com/utilitycoder/simple_shell/blob/docs/AUTHORS) - list of contributors
+* [check_helpers.c](https://github.com/utilitycoder/simple_shell/blob/docs/check_helpers.c) - helper functions that check for builtins
   * `exit_check` - checks if user_input is `exit`
   * `blank_check` - checks if user_input is `\n`
   * `env_check` - checks if user_input is `env`
@@ -83,20 +80,20 @@ The purpose of the simple shell project is to understand:
 
 ```c
 ~/me$ ./hsh
-hella_shell$ echo & the bunnymen
+simple_shell$ echo & the bunnymen
 & the bunnymen
-hella_shell$ pwd
-/home/me/hella_shell
-hella_shell$
-hella_shell$ exit
+simple_shell$ pwd
+/home/me/simple_shell
+simple_shell$
+simple_shell$ exit
 ~/me$
 ```
 
 ### Non-Interactive Mode
 
 ```c
-~/me$ cat hella_shell.txt | ./hsh
-got me feelin' hella shell so let's just keep on codin'
+~/me$ cat simple_shell.txt | ./hsh
+got me feelin' simple shell so let's just keep on codin'
 ~/me$
 ```
 
@@ -108,4 +105,4 @@ At this time, there are no known bugs.
 ## Authors
 
 Lawal Abubakar Babatunde | [GitHub](https://github.com/Utilitycoder)
-Omar Contreras | [GitHub](https://github.co
+Stanley Nwachukwu | [GitHub](https://github.com/Stanvirgo)
